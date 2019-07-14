@@ -16,6 +16,12 @@
 #### `.env` requirements
 * `PORT` - 8080
 
+### Methods
+#### `logger` - logs method, path, and current date/time for each route
+#### `requestTime` - logs current date/time
+#### `errorHandler` - returns an error
+#### `notFound` - returns Not Found if route is unexistent
+
 #### Running the app
 * `npm start`
 * `nodemon`
